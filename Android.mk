@@ -12,6 +12,13 @@ STLPORT_WHITELIST := \
     manta \
     shamu \
     tilapia \
+    vanquish \
+    qinara \
+    scorpion_mini \
+    mb886 \
+    xt907_jbbl \
+    xt925_jbbl \
+    xt926_jbbl \
 
 ifneq (,$(filter $(TARGET_DEVICE),$(STLPORT_WHITELIST)))
 
